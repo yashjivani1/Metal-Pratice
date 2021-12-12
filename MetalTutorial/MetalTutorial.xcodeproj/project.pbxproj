@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3DDAF7C2765BB290013DCB3 /* Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF7B2765BB290013DCB3 /* Maths.swift */; };
+		D3DDAF7F2765BBFE0013DCB3 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF7E2765BBFE0013DCB3 /* Node.swift */; };
+		D3DDAF812765BC600013DCB3 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF802765BC600013DCB3 /* Plane.swift */; };
+		D3DDAF832765BC770013DCB3 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF822765BC770013DCB3 /* Primitive.swift */; };
+		D3DDAF852765C1EA0013DCB3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF842765C1EA0013DCB3 /* Scene.swift */; };
+		D3DDAF872765C2A30013DCB3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF862765C2A30013DCB3 /* Triangle.swift */; };
+		D3DDAF892765C38A0013DCB3 /* BasicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF882765C38A0013DCB3 /* BasicScene.swift */; };
+		D3DDAF8B2765C3920013DCB3 /* TempScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF8A2765C3920013DCB3 /* TempScene.swift */; };
 		D3DF0CD327592D16009DAEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF0CD227592D16009DAEDB /* AppDelegate.swift */; };
 		D3DF0CD527592D16009DAEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF0CD427592D16009DAEDB /* ViewController.swift */; };
 		D3DF0CD727592D17009DAEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF0CD627592D17009DAEDB /* Assets.xcassets */; };
@@ -40,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3DDAF7B2765BB290013DCB3 /* Maths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maths.swift; sourceTree = "<group>"; };
+		D3DDAF7E2765BBFE0013DCB3 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		D3DDAF802765BC600013DCB3 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		D3DDAF822765BC770013DCB3 /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		D3DDAF842765C1EA0013DCB3 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		D3DDAF862765C2A30013DCB3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		D3DDAF882765C38A0013DCB3 /* BasicScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicScene.swift; sourceTree = "<group>"; };
+		D3DDAF8A2765C3920013DCB3 /* TempScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempScene.swift; sourceTree = "<group>"; };
 		D3DF0CCF27592D16009DAEDB /* MetalTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DF0CD227592D16009DAEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3DF0CD427592D16009DAEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +100,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3DDAF782765BAF80013DCB3 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+				D3DDAF7B2765BB290013DCB3 /* Maths.swift */,
+			);
+			path = Maths;
+			sourceTree = "<group>";
+		};
+		D3DDAF792765BB010013DCB3 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D3DDAF842765C1EA0013DCB3 /* Scene.swift */,
+				D3DDAF882765C38A0013DCB3 /* BasicScene.swift */,
+				D3DDAF8A2765C3920013DCB3 /* TempScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D3DDAF7A2765BB100013DCB3 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				D3DDAF7E2765BBFE0013DCB3 /* Node.swift */,
+				D3DDAF822765BC770013DCB3 /* Primitive.swift */,
+				D3DDAF802765BC600013DCB3 /* Plane.swift */,
+				D3DDAF862765C2A30013DCB3 /* Triangle.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
 		D3DF0CC627592D16009DAEDB = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +152,9 @@
 		D3DF0CD127592D16009DAEDB /* MetalTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				D3DDAF782765BAF80013DCB3 /* Maths */,
+				D3DDAF792765BB010013DCB3 /* Scene */,
+				D3DDAF7A2765BB100013DCB3 /* Node */,
 				D3DF0D08275931C7009DAEDB /* Renderer */,
 				D3DF0D0327592ECD009DAEDB /* View */,
 				D3DF0CD227592D16009DAEDB /* AppDelegate.swift */,
@@ -287,9 +335,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3DF0D0C27593CB3009DAEDB /* Shaders.metal in Sources */,
+				D3DDAF8B2765C3920013DCB3 /* TempScene.swift in Sources */,
+				D3DDAF872765C2A30013DCB3 /* Triangle.swift in Sources */,
 				D3DF0D0727592FA4009DAEDB /* MetalView.swift in Sources */,
+				D3DDAF892765C38A0013DCB3 /* BasicScene.swift in Sources */,
+				D3DDAF812765BC600013DCB3 /* Plane.swift in Sources */,
+				D3DDAF832765BC770013DCB3 /* Primitive.swift in Sources */,
 				D3DF0D0227592E01009DAEDB /* NSViewExtension.swift in Sources */,
+				D3DDAF7F2765BBFE0013DCB3 /* Node.swift in Sources */,
+				D3DDAF7C2765BB290013DCB3 /* Maths.swift in Sources */,
 				D3DF0D0E275A1930009DAEDB /* Types.swift in Sources */,
+				D3DDAF852765C1EA0013DCB3 /* Scene.swift in Sources */,
 				D3DF0CD527592D16009DAEDB /* ViewController.swift in Sources */,
 				D3DF0D0A275931E2009DAEDB /* Renderer.swift in Sources */,
 				D3DF0CD327592D16009DAEDB /* AppDelegate.swift in Sources */,
